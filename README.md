@@ -327,7 +327,7 @@ Developers are happy about the process as well because they can focus on functio
 
 The possibility of having surprises toward the end of the project lifecycle is reduced.
 
-Because we have designed the API first, the tests can be designed while the code is being developed. In a way, we also have TDD (Test Driven Design) when using API first development.
+Because we have designed the API first, the tests can be designed while the code is being developed. *In a way, we also have TDD (Test Driven Design) when using API first development*.
 
 ### HTTP status codes
 
