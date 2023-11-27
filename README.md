@@ -283,7 +283,7 @@ The diagram below illustrates the key features.
 
   HOL blocking - when the number of allowed parallel requests in the browser is used up, subsequent requests need to wait for the former ones to complete.
 
-- HTTP 2.0 was published in 2015. It addresses HOL issue through request multiplexing, which eliminates HOL blocking at the application layer, but HOL still exists at the transport (TCP) layer.
+- HTTP 2.0 was published in 2015. It addresses HOL issue through request multiplexing, which eliminates HOL(Head-of-Line blocking) blocking at the application layer, but HOL still exists at the transport (TCP) layer.
 
   As you can see in the diagram, HTTP 2.0 introduced the concept of HTTP “streams”: an abstraction that allows multiplexing different HTTP exchanges onto the same TCP connection. Each stream doesn’t need to be sent in order.
 
